@@ -800,7 +800,7 @@ function updateTotals() {
         );
 
     const delivery =
-        subtotal ? 1500 : 0;
+        subtotal ? 3000 : 0;
 
     const service =
         subtotal

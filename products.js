@@ -12,7 +12,7 @@ const PRODUCTS = [
     "rating": 4.6,
     "color": "#7c3aed",
     "tag": "Featured",
-    "image": "assets/images/game-01.jpg"
+    "image": "game-01.jpg"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@ const PRODUCTS = [
     "rating": 4.7,
     "color": "#15803d",
     "tag": "Featured",
-    "image": "assets/images/game-02.jpg"
+    "image": "game-02.jpg"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@ const PRODUCTS = [
     "rating": 4.8,
     "color": "#b45309",
     "tag": "Featured",
-    "image": "assets/images/game-03.jpg"
+    "image": "game-03.jpg"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@ const PRODUCTS = [
     "rating": 4.9,
     "color": "#7f1d1d",
     "tag": "Featured",
-    "image": "assets/images/game-04.jpg"
+    "image": "game-04.jpg"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@ const PRODUCTS = [
     "rating": 4.5,
     "color": "#334155",
     "tag": "Featured",
-    "image": "assets/images/game-05.jpg"
+    "image": "game-05.jpg"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@ const PRODUCTS = [
     "rating": 4.6,
     "color": "#0369a1",
     "tag": "Featured",
-    "image": "assets/images/game-06.jpg"
+    "image": "game-06.jpg"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@ const PRODUCTS = [
     "rating": 4.7,
     "color": "#166534",
     "tag": "Available",
-    "image": "assets/images/game-07.jpg"
+    "image": "game-07.jpg"
   },
   {
     "id": 8,
@@ -117,7 +117,7 @@ const PRODUCTS = [
     "rating": 4.8,
     "color": "#6d28d9",
     "tag": "Available",
-    "image": "assets/images/game-08.jpg"
+    "image": "game-08.jpg"
   },
   {
     "id": 9,
@@ -132,7 +132,7 @@ const PRODUCTS = [
     "rating": 4.9,
     "color": "#475569",
     "tag": "Available",
-    "image": "assets/images/game-09.jpg"
+    "image": "game-09.jpg"
   },
   {
     "id": 10,
@@ -147,7 +147,7 @@ const PRODUCTS = [
     "rating": 4.5,
     "color": "#be123c",
     "tag": "Available",
-    "image": "assets/images/game-10.jpg"
+    "image": "game-10.jpg"
   },
   {
     "id": 11,
@@ -162,7 +162,7 @@ const PRODUCTS = [
     "rating": 4.6,
     "color": "#1d4ed8",
     "tag": "Available",
-    "image": "assets/images/game-11.jpg"
+    "image": "game-11.jpg"
   },
   {
     "id": 12,
@@ -177,7 +177,7 @@ const PRODUCTS = [
     "rating": 4.7,
     "color": "#dc2626",
     "tag": "Available",
-    "image": "assets/images/game-12.jpg"
+    "image": "game-12.jpg"
   },
   {
     "id": 13,
@@ -192,7 +192,7 @@ const PRODUCTS = [
     "rating": 4.8,
     "color": "#1e3a8a",
     "tag": "Available",
-    "image": "assets/images/game-13.jpg"
+    "image": "game-13.jpg"
   },
   {
     "id": 14,
@@ -207,7 +207,7 @@ const PRODUCTS = [
     "rating": 4.9,
     "color": "#64748b",
     "tag": "Available",
-    "image": "assets/images/game-14.jpg"
+    "image": "game-14.jpg"
   },
   {
     "id": 15,
@@ -222,7 +222,7 @@ const PRODUCTS = [
     "rating": 4.5,
     "color": "#075985",
     "tag": "Available",
-    "image": "assets/images/game-15.jpg"
+    "image": "game-15.jpg"
   },
   {
     "id": 16,
@@ -237,7 +237,7 @@ const PRODUCTS = [
     "rating": 4.6,
     "color": "#16a34a",
     "tag": "Available",
-    "image": "assets/images/game-16.jpg"
+    "image": "game-16.jpg"
   },
   {
     "id": 17,
@@ -252,7 +252,7 @@ const PRODUCTS = [
     "rating": 4.7,
     "color": "#0f766e",
     "tag": "Available",
-    "image": "assets/images/game-17.jpg"
+    "image": "game-17.jpg"
   },
   {
     "id": 18,
@@ -267,7 +267,7 @@ const PRODUCTS = [
     "rating": 4.8,
     "color": "#e11d48",
     "tag": "Available",
-    "image": "assets/images/game-18.jpg"
+    "image": "game-18.jpg"
   },
   {
     "id": 19,
@@ -282,7 +282,7 @@ const PRODUCTS = [
     "rating": 4.9,
     "color": "#9333ea",
     "tag": "Available",
-    "image": "assets/images/game-19.jpg"
+    "image": "game-19.jpg"
   },
   {
     "id": 20,
@@ -297,6 +297,6 @@ const PRODUCTS = [
     "rating": 4.5,
     "color": "#65a30d",
     "tag": "Available",
-    "image": "assets/images/game-20.jpg"
+    "image": "game-20.jpg"
   }
 ];

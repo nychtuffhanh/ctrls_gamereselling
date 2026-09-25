@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login · CTRL S</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="container nav">
+      <a class="logo" href="index.html">CTRL <span>S</span></a>
+
+      <button class="mobile-toggle">☰</button>
+
+      <nav class="navlinks" id="navlinks">
+        <a href="marketplace.html">Games</a>
+        <a href="marketplace.html?category=Action%20%26%20Open%20World">Action & Open World</a>
+        <a href="marketplace.html?category=Role-Playing%20Games%20%28RPGs%29">RPG</a>
+        <a href="profile.html">Wishlist</a>
+      </nav>
+
+      <form class="search" action="marketplace.html">
+        <span>⌕</span>
+        <input name="q" placeholder="Search games, platforms, or categories...">
+        <button>→</button>
+      </form>
+
+      <div class="actions">
+        <a class="btn ghost" href="login.html">Login</a>
+        <a class="btn primary" href="signup.html">Sign Up</a>
+        <a class="btn cartbtn" href="cart.html">
+          🛒<span class="badge cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="auth">
+      <div class="auth-box">
+        <span class="eyebrow">CTRL S account</span>
+
+        <h1>Welcome back</h1>
+
+        <p class="muted">
+          Sign in to access your wishlist and order history.
+        </p>
+
+        <form id="authForm">
+          <div class="field">
+            <label>Email</label>
+            <input
+              id="email"
+              type="email"
+              required
+              placeholder="you@example.com"
+            >
+          </div>
+
+          <div class="field">
+            <label>Password</label>
+            <input
+              id="password"
+              type="password"
+              minlength="6"
+              required
+              placeholder="At least 6 characters"
+            >
+          </div>
+
+          <button class="btn primary" type="submit">
+            Login →
+          </button>
+        </form>
+
+        <p class="muted" style="text-align:center;margin-top:18px">
+          New here?
+          <a href="signup.html" style="color:var(--accent)">
+            Create an account
+          </a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+
+      <div>
+        <a class="logo" href="index.html">
+          CTRL <span>S</span>
+        </a>
+
+        <p>
+          Pay Less. Save More. Play More.<br>
+          Pre-owned games at player-friendly prices.
+        </p>
+      </div>
+
+      <div>
+        <h4>Shop</h4>
+        <a href="marketplace.html">All Games</a>
+        <a href="marketplace.html?category=Action%20%26%20Open%20World">
+          Action & Open World
+        </a>
+        <a href="marketplace.html?category=Shooters">
+          Shooters
+        </a>
+        <a href="marketplace.html?category=Platformers%2C%20Strategy%2C%20%26%20Simulation">
+          Strategy & Simulation
+        </a>
+      </div>
+
+      <div>
+        <h4>Account</h4>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Create Account</a>
+        <a href="profile.html">Wishlist</a>
+        <a href="cart.html">Shopping Cart</a>
+      </div>
+
+      <div>
+        <h4>Contact CTRL S</h4>
+
+        <a href="https://t.me/kesspool" target="_blank">
+          Telegram: @kesspool
+        </a>
+
+        <a href="viber://chat?number=%2B959966681437">
+          Viber: +95 9 966 681 437
+        </a>
+
+        <a href="tel:+959966681437">
+          Phone: +95 9 966 681 437
+        </a>
+
+        <a href="mailto:hello@ctrlsmm.com">
+          hello@ctrlsmm.com
+        </a>
+
+        <div class="socials">
+          <a href="https://t.me/kesspool">TG</a>
+          <a href="viber://chat?number=%2B959966681437">VB</a>
+          <a href="mailto:hello@ctrlsmm.com">@</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container" style="margin-top:30px;font-size:12px">
+      © 2026 CTRL S · Demo marketplace. Game names belong to their respective publishers.
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
